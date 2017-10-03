@@ -58,7 +58,7 @@ def on_open(ws):
     print("Open Thead")
     
     
-stream = init_streaming_server("88247f7988247f7988247f79a2887ad6d68882488247f79d1f4910dee8657d505692782")
+stream = init_streaming_server("")
 rules = get_my_rules()
 try:
     for rule in rules:
